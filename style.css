@@ -1,0 +1,91 @@
+body{
+  height: 800px;
+  --point-color-blue: #4cb9e7;
+  --point-color-appricot: #ffecd6;
+  position: relative;
+  word-break: keep-all;
+}
+
+.inner{
+  position: absolute;
+  height: 800px;
+  width: 100vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.feature{
+  text-align: center;
+  font-weight: 700;
+  color: #3559E0;
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+
+.title_f1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.description_f1{
+  color: rgba(0,0,0,.5);
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.benefit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefit .title{
+  margin-top: 50px;
+  color: #3559E0;
+  /* text-shadow: 3px 4px 5px rgba(0,0,0,.2); */
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.benefit_block{
+  display: flex;
+  justify-content: center;
+}
+
+.worker,
+.employer{
+  background-color: rgba(255, 236, 214,.5);
+  /* background-color: rgba(76, 185, 231,.2); */
+  border-radius: 10px;
+  margin:0 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.worker h1,
+.employer h1{
+  font-size: 22px;
+}
+
+.worker p,
+.employer p{
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: -3px;
+  color: rgba(0,0,0,.5);
+}
