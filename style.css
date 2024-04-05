@@ -56,20 +56,42 @@
     padding: 8px 12px;
   }
   /*서비스소개*/
-  .intro {
-    margin-top: 30px;
-    margin-left: 30px;
+  /*오른쪽-텍스트,이미지*/
+  .intro_download {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 30px;
   }
-  .intro_download h1 {
+  .intro_download_wrapper_left{
+    margin: 0px;
+    text-align: center;
+  }
+  .intro_download_wrapper_left h1 {
     font-size: 36px;
   }
-  /*서비스소개-다운로드버튼*/
+  /*서비스소개-이미지*/
+  .intro_img {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #intro_img_joinUs { 
+    border-radius: 50%; 
+    overflow: hidden; 
+    width: 250px; 
+    height: 250px; 
+  }
+  /*왼쪽-다운로드버튼*/
+  .intro_download_wrapper_right{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 0px;
+  }
   .intro_download_icon {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-right: 80px;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-end;
+
   }
   .intro_download_icon button {
     width: 152px;
@@ -116,4 +138,9 @@
   .android_btn_txt #android {
     display: block;
     font-size: 18px;
+  }
+  /*매칭과정*/
+  .intro_process {
+    display: flex;
+    margin: 20px 0px 0px 30px;
   }
