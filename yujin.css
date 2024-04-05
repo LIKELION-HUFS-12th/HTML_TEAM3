@@ -1,51 +1,51 @@
 
-.review {
+#yujin .review {
     background-color: #fff0df;
-    padding: 50px 85px;
+    padding: 20px 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.left_header {
+#yujin .left_header {
     font-weight: bold;
     font-size: 30px;
     margin-left: 70px;
 }
 
-.left_header p {
+#yujin .left_header p {
     font-size: 18px;
     font-weight: lighter;
 }
 
-.right_review {
+#yujin .right_review {
     width: 860px;
 }
 
-.nickname {
+#yujin .nickname {
     font-weight: 1000;
     font-size: 20px;
     padding: 20px 12px;
     background-color: rgb(251, 251, 251);
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
 }
 
 
-.content {
+#yujin .content {
     padding: 25px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
     font-size: 17px;
 }
 
 
 
-.team_header {
+#yujin .team_header {
     font-weight: bold;
     font-size: 30px;
     margin-left: 550px;
@@ -53,7 +53,7 @@
     margin-bottom: ;
 }
 
-.first_team {
+#yujin .first_team {
     padding: 110px 85px 0;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@
     margin: 10px 100px 2px 100px;
 }
 
-.second_team {
+#yujin .second_team {
     padding: 110px 85px 0;
     display: flex;
     align-items: center;
@@ -69,38 +69,38 @@
     margin: 10px 100px 200px 100px;
 }
 
-.id {
+#yujin .id {
     text-align: center;
     background-color:#fff0df;
     padding: 15px 20px;
     border: 1px solid transparent;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.05);
     font-size: 17px;
     margin: 2px;
 }
 
-.name {
+#yujin .name {
     font-size: 20px;
     font-weight: bold;
 }
 
-.id button {
+#yujin .id button {
     background-color: #ffffff;
     padding: 8px 12px;
     border: 1px solid transparent;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 17px;
 }
 
-.id img {
+#yujin .id img {
     width: 270px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 
-.footer {
+#yujin .footer {
     background-color: rgba(224, 224, 224, 0.595);
     padding: 5px 55px;
     display: flex;
@@ -108,24 +108,24 @@
 }
 
 
-.footer ul {
+#yujin .footer ul {
     display: flex;
     justify-content: left;
     margin-top: 1px;
 }
 
-.footer .contacts ul li {
+#yujin .footer .contacts ul li {
     color: rgba(224, 224, 224, 0.595);
     margin-left: 1px;
     margin-bottom: 30px;
 }
 
-.footer .contacts ul li a {
+#yujin .footer .contacts ul li a {
     margin: 50px;
     color: black;
 
 }
 
-.policy {
+#yujin .policy {
     font-size: x-small;
 }
