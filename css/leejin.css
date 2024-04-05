@@ -5,7 +5,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-  /*로그인/회원가입*/
+  .fontcolor-accent1 {
+    color: #4cb9e7;
+  }
+  .fontcolor-accent2 {
+    color: #3559E0;
+  }
+
+  /*로그인, 회원가입*/
   #leejin .nav_login {
     display: flex;
     justify-content: flex-end;
@@ -27,11 +34,11 @@
   #leejin .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 10px;
     background-color: #ffffff;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
   }
   #leejin .nav-items {
     display: flex;
@@ -48,10 +55,11 @@
     gap: 10px;
     flex-wrap: nowrap; 
     white-space: nowrap; 
+    transform: translateY(4px);
   }
   #leejin .menu span {
     font-size: 14px;
-    padding: 8px 12px;
+    padding: 0px;
   }
   /*서비스소개*/
   #leejin .intro_download {
@@ -59,14 +67,18 @@
     flex-direction: column;
     align-items: center;
     margin: 0px;
+    flex-wrap: nowrap; 
+    white-space: nowrap; 
   }
   #leejin .intro_download h1 {
     font-size: 36px;
+    margin: 20px 0px 10px 0px;
   }
   /*서비스소개-이미지*/
   #leejin .intro_img {
     display: flex;
     justify-content: flex-start;
+    margin: 0px;
   }
   #leejin #intro_img_joinUs { 
     border-radius: 50%; 
@@ -74,11 +86,13 @@
     width: 250px; 
     height: 250px; 
   }
+  /*서비스소개-다운로드아이콘*/
   #leejin .intro_download_icon {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     align-items: flex-end;
+    margin-top: 10px;
 
   }
   #leejin .intro_download_icon button {
