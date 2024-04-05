@@ -1,32 +1,30 @@
 /*전체구성초기화*/
-* {
+  #leejin {
+    font-family: 'NanumGothic';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body {
-    font-family: sans-serif;
-  }
   /*로그인/회원가입*/
-  .nav_login {
+  #leejin .nav_login {
     display: flex;
     justify-content: flex-end;
     margin-right: 30px;
   }
-  .user-info {
+  #leejin .user-info {
     display: flex;
     justify-content: flex-end;
     gap: 5px;
     transform: translateY(10px);
   }
   
-  .user-info span {
+  #leejin .user-info span {
     margin-top: 0px;
     cursor: pointer;
     font-size: 10px;
   }
   /*로고, 메뉴*/
-  .navbar {
+  #leejin .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,65 +33,55 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-  .nav-items {
+  #leejin .nav-items {
     display: flex;
     align-items: center;
     flex: 1;
   }
-  .logo img {
+  #leejin .logo img {
     height: 50px;
     margin-right: 30px;
   }
-  .menu {
+  #leejin .menu {
     display: flex;
     align-items: center;
     gap: 10px;
     flex-wrap: nowrap; 
     white-space: nowrap; 
   }
-  .menu span {
+  #leejin .menu span {
     font-size: 14px;
     padding: 8px 12px;
   }
   /*서비스소개*/
-  /*오른쪽-텍스트,이미지*/
-  .intro_download {
+  #leejin .intro_download {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 0px 0px 30px;
-  }
-  .intro_download_wrapper_left{
+    flex-direction: column;
+    align-items: center;
     margin: 0px;
-    text-align: center;
   }
-  .intro_download_wrapper_left h1 {
+  #leejin .intro_download h1 {
     font-size: 36px;
   }
   /*서비스소개-이미지*/
-  .intro_img {
+  #leejin .intro_img {
     display: flex;
     justify-content: flex-start;
   }
-  #intro_img_joinUs { 
+  #leejin #intro_img_joinUs { 
     border-radius: 50%; 
     overflow: hidden; 
     width: 250px; 
     height: 250px; 
   }
-  /*왼쪽-다운로드버튼*/
-  .intro_download_wrapper_right{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 30px 0px 0px;
-  }
-  .intro_download_icon {
+  #leejin .intro_download_icon {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     align-items: flex-end;
 
   }
-  .intro_download_icon button {
+  #leejin .intro_download_icon button {
     width: 152px;
     height: 50px;
     border-radius: 10px;
@@ -102,45 +90,45 @@
     position: relative;
     background-color: white;
   }  
-  .intro_download_icon button.android_btn {
+  #leejin .intro_download_icon button.android_btn {
     width: 155px;
   }
-  .intro_download_icon button svg {
+  #leejin .intro_download_icon button svg {
     position: absolute;
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
   }
-  .ios_btn_txt {
+  #leejin .ios_btn_txt {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 50px;
   }
-  .ios_btn_txt #download_ios {
+  #leejin .ios_btn_txt #download_ios {
     font-size: 9px;
   }
-  .ios_btn_txt #ios {
+  #leejin .ios_btn_txt #ios {
     display: block;
     font-size: 18px;
   }
-    .android_btn_txt {
+  #leejin .android_btn_txt {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 42px;
   }
-  .android_btn_txt #download_android {
+  #leejin .android_btn_txt #download_android {
     font-size: 10px;
   }
-  .android_btn_txt #android {
+  #leejin .android_btn_txt #android {
     display: block;
     font-size: 18px;
   }
   /*매칭과정*/
-  .intro_process {
+  #leejin .intro_process {
     display: flex;
     margin: 20px 0px 0px 30px;
   }
