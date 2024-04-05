@@ -1,0 +1,78 @@
+#HM {
+  /* background-color: #ffecd6;*/
+  text-align: center;
+  font-family: "NanumGothic";
+}
+
+#HM h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 35px;
+}
+
+#HM h3 .word {
+  color: #4cb9e7;
+}
+
+#HM p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  text-align: left;
+  margin-left: 27%;
+  line-height: 30px;
+}
+
+#HM .cause {
+  font-size: 10px;
+}
+
+#HM ul {
+  display: flex;
+  padding-bottom: 30px;
+  list-style: none;
+  list-style-type: none;
+  margin-left: 170px;
+  text-align: center;
+}
+
+#HM li {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+#HM .image {
+  position: relative;
+  border-style: none;
+  display: flex;
+  background-color: #ffecd6;
+  height: 270px;
+}
+
+#HM .image img {
+  position: static;
+  width: 230px;
+  padding: 5px;
+  text-align: center;
+}
+
+#HM .descript {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+
+#HM .descript div {
+  margin-top: 10px;
+  font-size: 13px;
+}
