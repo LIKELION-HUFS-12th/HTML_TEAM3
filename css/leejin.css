@@ -12,7 +12,7 @@
     color: #3559E0;
   }
 
-  /*로그인, 회원가입*/
+  /*~~~~~~~~로그인, 회원가입~~~~~~~~*/
   #leejin .nav_login {
     display: flex;
     justify-content: flex-end;
@@ -30,7 +30,7 @@
     cursor: pointer;
     font-size: 10px;
   }
-  /*로고, 메뉴*/
+  /*~~~~~~~~로고, 메뉴~~~~~~~~*/
   #leejin .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,21 +58,21 @@
     transform: translateY(4px);
   }
   #leejin .menu span {
-    font-size: 14px;
+    font-size: 13px;
     padding: 0px;
   }
-  /*서비스소개*/
+  /*~~~~~~~~서비스소개~~~~~~~~*/
   #leejin .intro_download {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
+    margin: 20px 0px 20px 0px;
     flex-wrap: nowrap; 
     white-space: nowrap; 
   }
   #leejin .intro_download h1 {
     font-size: 36px;
-    margin: 20px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
   }
   /*서비스소개-이미지*/
   #leejin .intro_img {
@@ -93,7 +93,6 @@
     gap: 10px;
     align-items: flex-end;
     margin-top: 10px;
-
   }
   #leejin .intro_download_icon button {
     width: 152px;
@@ -105,7 +104,7 @@
     background-color: white;
   }  
   #leejin .intro_download_icon button.android_btn {
-    width: 155px;
+    width: 160px;
   }
   #leejin .intro_download_icon button svg {
     position: absolute;
@@ -141,8 +140,33 @@
     display: block;
     font-size: 18px;
   }
-  /*매칭과정*/
+  /*~~~~~~~~매칭과정~~~~~~~~*/
   #leejin .intro_process {
     display: flex;
-    margin: 20px 0px 0px 30px;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
   }
+  .intro_process h2 {
+    color:#3559E0;
+  }
+  .intro_process_icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin: 0px;
+  }
+  .pr_icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .pr_icon img {
+    width: 80px;
+  }
+  .icon_txt {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+ 
