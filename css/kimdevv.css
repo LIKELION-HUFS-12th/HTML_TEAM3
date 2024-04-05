@@ -26,6 +26,8 @@
 }
 
 #kimdevv #para3 {
+    margin-top: -10px;
+    margin-bottom: 70px;
     color: rgba(0,0,0,.5);
     font-size: 15px;
 }
@@ -42,19 +44,35 @@
 }
 
 #kimdevv .minibox {
+    width: 440.55px;
+    height: 256.5px;
+    background-color: rgba(255, 236, 214,.5);
+    border-radius: 20px;
+    margin:0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #kimdevv .miniSpan11 {
-    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 #kimdevv .miniSpan12 {
+    padding-bottom: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: #3559E0;
+    color: rgba(53, 89, 244, 0.85);
 }
 #kimdevv .miniSpan2 {
-
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: -3px;
+    color: rgba(0,0,0);
 }
 
 
