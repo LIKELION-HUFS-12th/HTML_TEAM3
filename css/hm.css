@@ -1,78 +1,103 @@
-#HM {
-  /* background-color: #ffecd6;*/
-  text-align: center;
-  font-family: "NanumGothic";
-}
-
-#HM h3 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-size: 35px;
-}
-
-#HM h3 .word {
-  color: #4cb9e7;
-}
-
-#HM p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
-  text-align: left;
-  margin-left: 27%;
-  line-height: 30px;
-}
-
-#HM .cause {
-  font-size: 10px;
-}
-
-#HM ul {
-  display: flex;
-  padding-bottom: 30px;
-  list-style: none;
-  list-style-type: none;
-  margin-left: 170px;
-  text-align: center;
-}
-
-#HM li {
+#HM body {
+  height: 800px;
+  --point-color-blue: #4cb9e7;
+  --point-color-appricot: #ffecd6;
   position: relative;
-  margin-bottom: 10px;
-  border-radius: 12px;
-  margin: 10px;
+  word-break: keep-all;
 }
 
-#HM .image {
-  position: relative;
-  border-style: none;
-  display: flex;
-  background-color: #ffecd6;
-  height: 270px;
+#HM .inner {
+  height: 800px;
+  width: 100vh;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
-#HM .image img {
-  position: static;
-  width: 230px;
-  padding: 5px;
+#HM .feature {
+  text-align: center;
+  font-weight: 700;
+  color: #3559e0;
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+
+#HM .title_f1 {
+  font-size: 36px;
   text-align: center;
 }
 
-#HM .descript {
-  margin-top: 10px;
-  margin-left: 10px;
+#HM .description_f1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 200;
   font-size: 15px;
-  text-align: left;
-  line-height: 20px;
+  margin-top: -10px;
+  text-align: center;
 }
 
-#HM .descript div {
-  margin-top: 10px;
+#HM img {
+  width: 150px;
+  height: 80px;
+}
+
+#HM .benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#HM .benefit .title {
+  margin-top: 50px;
+  color: #3559e0;
+  /* text-shadow: 3px 4px 5px rgba(0,0,0,.2); */
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#HM .benefit_block {
+  display: flex;
+  justify-content: center;
+}
+
+#HM .employer {
+  background-color: rgba(255, 236, 214, 0.5);
+  /* background-color: rgba(76, 185, 231,.2); */
+  border-radius: 20px;
+  margin: 0 5px;
+  position: relative;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+#HM .employer h1 {
+  font-size: 22px;
+}
+
+#HM .employer p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: -3px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#HM .employer button {
+  display: block;
+  width: 150px;
+  height: 36px;
+  box-sizing: border-box;
+  line-height: 36px;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: solid 1px #dfe7f2;
+  line-height: 34.5px;
   font-size: 13px;
+  font-family: "HGSoftGGothicssi60g";
+  text-align: center;
+  background-color: white;
 }
