@@ -58,8 +58,16 @@
   height: 170px;
 }
 
-#ejbranch .benefit h1{
+#ejbranch  .title{
   text-align: center;
   padding: 10px;
+  color: #3559e0;
+}
 
+#ejbranch .benefit{
+  text-align: center;
+  background-color: #fff0df;
+  border-radius: 20px;
+  width: 900px;
+  height: 380px;
 }
