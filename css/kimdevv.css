@@ -1,51 +1,107 @@
 #kimdevv #feature2 {
-  width: 100%;
-  height: 800px;
+    width: 100vh;
+    height: 800px;
 
-  font-family: "NanumGothic";
-  transform: rotate(0.04deg);
+    margin: auto;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    font-family: 'NanumGothic';
+    transform: rotate(0.04deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #kimdevv #para1 {
-  color: #3559e0;
-  font-weight: bold;
-  font-size: 14px;
+    color: #3559E0;
+    font-weight: 700;
+    margin-bottom: -10px;
+    margin-top: 50px;;
 }
 
 #kimdevv #para2 {
-  text-align: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
 }
+
+#kimdevv #para3 {
+    margin-top: -10px;
+    margin-bottom: 70px;
+    color: rgba(0,0,0,.5);
+    font-size: 15px;
+}
+
+#kimdevv #detailDiv {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#kimdevv img{
+    width: 50px;
+    height: 50px;
+}
+
+#kimdevv .minibox {
+    width: 440.55px;
+    height: 256.5px;
+    background-color: rgba(255, 236, 214,.5);
+    border-radius: 20px;
+    margin:0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#kimdevv .miniSpan11 {
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#kimdevv .miniSpan12 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(53, 89, 244, 0.85);
+}
+#kimdevv .miniSpan2 {
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: -3px;
+    color: rgba(0,0,0);
+}
+
 
 #kimdevv #innerDiv {
-  background-color: #fffbf7;
-  min-width: 1000px;
-  height: 560px;
-  border-radius: 160px;
+    background-color: #fffbf7;
+    min-width: 1000px;
+    height: 560px;
+    border-radius: 160px;
 
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 #kimdevv #TitlePara {
-  margin-top: 230px;
-  margin-left: 60px;
-  color: #0f2167;
-  font-size: 32px;
-  font-weight: bold;
+    margin-top: 230px;
+    margin-left: 60px;
+    color:#0F2167;
+    font-size: 32px;
+    font-weight: bold;
 }
 #kimdevv #InnerPara {
-  margin-left: 60px;
-  font-size: 18px;
-  font-weight: bold;
-  color: gray;
-  margin-top: -20px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color:gray;
+    margin-top: -20px;
 }
 
 #kimdevv #moneyImg {
-  padding: 20px;
-  border-top-right-radius: 160px;
-  border-bottom-right-radius: 160px;
+    padding: 20px;
+    border-top-right-radius: 160px;
+    border-bottom-right-radius: 160px;
 }
