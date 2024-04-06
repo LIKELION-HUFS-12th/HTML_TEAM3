@@ -47,11 +47,15 @@
 
 }
 #ejbranch .badge{
-  display: flex;
-  margin-left: 390px;
-  width: 60px;
-  height: 180px;
+  display: block;
+  text-align: center;
   
+
+}
+
+#ejbranch .badge1{
+  width: 190px;
+  height: 170px;
 }
 
 #ejbranch .benefit h1{

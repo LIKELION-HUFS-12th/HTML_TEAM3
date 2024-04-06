@@ -1,6 +1,6 @@
 #kimdevv #feature2 {
     width: 100vh;
-    height: 800px;
+    height: 700px;
 
     margin: auto;
 
@@ -72,36 +72,5 @@
     font-size: 15px;
     font-weight: 200;
     margin-top: -3px;
-    color: rgba(0,0,0);
-}
-
-
-#kimdevv #innerDiv {
-    background-color: #fffbf7;
-    min-width: 1000px;
-    height: 560px;
-    border-radius: 160px;
-
-    display: flex;
-    justify-content: space-between;
-}
-#kimdevv #TitlePara {
-    margin-top: 230px;
-    margin-left: 60px;
-    color:#0F2167;
-    font-size: 32px;
-    font-weight: bold;
-}
-#kimdevv #InnerPara {
-    margin-left: 60px;
-    font-size: 18px;
-    font-weight: bold;
-    color:gray;
-    margin-top: -20px;
-}
-
-#kimdevv #moneyImg {
-    padding: 20px;
-    border-top-right-radius: 160px;
-    border-bottom-right-radius: 160px;
+    color: #00000080;
 }
