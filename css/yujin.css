@@ -1,4 +1,7 @@
 
+#yujin {
+    word-break: keep-all;
+}
 #yujin .review {
     background-color: #fff0df;
     padding: 20px 60px;
@@ -92,6 +95,7 @@
 
 #yujin .id img {
     width: 200px;
+    height: 250px;
     background-color: white;
     border-radius: 20px;
 }
