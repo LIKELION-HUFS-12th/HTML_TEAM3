@@ -4,6 +4,7 @@
   --point-color-appricot: #c28137;
   position: relative;
   word-break: keep-all;
+  font-family: 'NanumGothic';
 }
 
 #ejbranch .inner{
@@ -34,14 +35,16 @@
   font-size: 15px;
   margin-top: -10px;
   text-align: center;
+
 }
 
 #ejbranch .benefit .title{
   margin-top: 50px;
   color: #3559e0;
-  font-weight: 600;
+  font-weight: 600; 
   font-size: 30px;
   text-align: center;
+  
 }
 #ejbranch .benefit_block{
 
@@ -55,7 +58,7 @@
 
 #ejbranch .badge1{
   width: 195px;
-  height: 173px;
+  height: 187px;
 }
 
 #ejbranch  .title{
@@ -69,5 +72,5 @@
   background-color: #fff0df;
   border-radius: 20px;
   width: 900px;
-  height: 380px;
+  height: 390px;
 }
