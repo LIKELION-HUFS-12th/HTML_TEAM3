@@ -1,38 +1,61 @@
-
-#ejbranch{
-    text-align: center;
-  font-family: "NanumGothic";
+#ejbranch body{
+  height: 800px;
+  --point-color-blue: #4cb9e7;
+  --point-color-appricot: #c28137;
+  position: relative;
+  word-break: keep-all;
 }
 
-  #ejbranch body{
-    height: 800px;
-    position: relative;
-    word-break: keep-all;
-  }  
+#ejbranch .inner{
+  height: 800px;
+  width: 100vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 
-#ejbranch .feature4{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 36px;
+#ejbranch .feature{
+  text-align: center;
+  font-weight: 700;
   color: #3559e0;
-  font-weight: bold;
+  margin-bottom: -10px;
+  margin-top: 50px;
 }
 
-#ejbranch .discrip{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+#ejbranch .title_f4{
+  font-size: 36px;
+  text-align: center;
+
 }
 
-#ejbranch .discrip1{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgba(0,0,0,.5);
+#ejbranch .description_f4{
+  color: rgba(0,0,0,0.5);
   font-weight: 200;
   font-size: 15px;
   margin-top: -10px;
   text-align: center;
+}
+
+#ejbranch .benefit .title{
+  margin-top: 50px;
+  color: #3559e0;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+#ejbranch .benefit_block{
+
+}
+#ejbranch .badge{
+  display: flex;
+  margin-left: 390px;
+  width: 60px;
+  height: 180px;
+  
+}
+
+#ejbranch .benefit h1{
+  text-align: center;
+  padding: 10px;
+
 }
