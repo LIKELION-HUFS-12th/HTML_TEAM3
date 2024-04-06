@@ -52,23 +52,19 @@
 #ejbranch .badge{
   display: block;
   text-align: center;
-  
-
 }
 
 #ejbranch .badge1{
   width: 195px;
-  height: 187px;
+  height: 198px;
 }
 
 #ejbranch  .title{
   text-align: center;
-  padding: 10px;
+  padding: 9px;
   color: #3559e0;
 }
 
 #ejbranch .benefit{
   text-align: center;
- 
- 
 }
