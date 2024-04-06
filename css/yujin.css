@@ -1,10 +1,15 @@
 
+#yujin {
+    word-break: keep-all;
+    font-family: 'NanumGothic';
+}
 #yujin .review {
     background-color: #fff0df;
-    padding: 20px 60px;
+    padding: 20px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    line-height: 25px;
 }
 
 #yujin .left_header {
@@ -16,10 +21,11 @@
 #yujin .left_header p {
     font-size: 15px;
     font-weight: lighter;
+    color: #00000080;
 }
 
 #yujin .right_review {
-    width: 860px;
+    width: 700px;
 }
 
 #yujin .nickname {
