@@ -1,16 +1,15 @@
 #HM {
   font-family: "NanumGothic";
-}
-#HM body {
-  height: 800px;
+  height: 700px;
   --point-color-blue: #4cb9e7;
   --point-color-appricot: #ffecd6;
   position: relative;
   word-break: keep-all;
+  margin-bottom: -50px;
 }
 
 #HM .inner {
-  height: 800px;
+  height: 700px;
   width: 100vh;
   margin: auto;
   left: 0;
@@ -22,12 +21,13 @@
   font-weight: 700;
   color: #3559e0;
   margin-bottom: -10px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #HM .title_f1 {
-  font-size: 36px;
+  font-size: 34px;
   text-align: center;
+  font-weight: 800;
 }
 
 #HM .description_f1 {
@@ -73,7 +73,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   width: 150px;
 }
